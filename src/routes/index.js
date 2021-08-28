@@ -6,10 +6,10 @@ Vue.use(VueRouter);
 const router = new VueRouter({
   mode: 'history',
   routes: [
-    {
-      path: '/',
-      redirect: '/main',
-    },
+    // {
+    //   path: '/',
+    //   redirect: '/main',
+    // },
     {
       path: '/main',
       component: () => import('@/views/MainPage.vue'),

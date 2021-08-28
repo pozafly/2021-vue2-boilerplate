@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <BoilerPlateComponent msg="Welcome to Your Vue.js App" />
+    <BoilerPlateComponent msg="Welcome to Your Vue.js App!!!" />
   </div>
 </template>
 

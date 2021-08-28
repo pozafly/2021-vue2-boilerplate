@@ -1,9 +1,24 @@
 <template>
-  <div>example</div>
+  <div class="start">{{ msg }}</div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    msg: {
+      type: String,
+      default: '',
+    },
+  },
+};
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 30px;
+}
+</style>
