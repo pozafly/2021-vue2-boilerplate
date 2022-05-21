@@ -1,0 +1,85 @@
+{
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "material-icon-theme.activeIconPack": "vue",
+  "editor.tabSize": 2,
+  "editor.semi": true,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnType": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "eslint.validate": [
+    "vue",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "workbench.activityBar.visible": true,
+  "terminal.integrated.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "javascript.format.enable": false,
+  "explorer.compactFolders": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "eslint.migration.2_x": "off",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "terminal.integrated.defaultProfile.osx": "/bin/zsh (migrated)",
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "backgroundColor": "#EF6291"
+    },
+    {
+      "text": "TODO:"
+    }
+  ],
+  "todohighlight.defaultStyle": {
+    "color": "#fff",
+    "borderRadius": "2px"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.profiles.osx": {
+    "/bin/zsh (migrated)": {
+      "path": "/bin/zsh",
+      "args": ["-l"]
+    }
+  },
+  "editor.formatOnPaste": true,
+  "workbench.colorTheme": "Community Material Theme",
+  "window.zoomLevel": 1,
+  "editor.linkedEditing": true,
+  "tabnine.experimentalAutoImports": true
+}

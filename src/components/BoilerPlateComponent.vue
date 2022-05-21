@@ -16,6 +16,7 @@ export default {
 <style lang="scss" scoped>
 .start {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
